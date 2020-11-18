@@ -2514,6 +2514,8 @@
 
 		.carousel article {
 			display: inline-block;
+			vertical-align: top;
+			font-weight:450;
 			width: 18em;
 			background: #fff;
 			text-align: center;
