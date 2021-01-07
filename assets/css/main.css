@@ -12,7 +12,50 @@
 	text-align: center !important;
 	line-height: 90%;
 }
+#monitoring-device-div {
+	height: 60%;
+}
+#sensor-device-div {
+	height: 60%;
+}
+#communication-div {
+	height: 60%;
+}
+#image-div {
+	height: 60%;
+}
+#avionics-div {
+	height: 60%;
+}
 
+/*************************Article Hover********************/
+
+#monitoring-device-div:hover {
+	box-shadow: 5px 5px 5px 5px #2b252c7c ;
+	transition: 0.5s;
+	cursor: pointer;
+	
+}
+#sensor-device-div:hover {
+	box-shadow: 5px 5px 5px 5px #2b252c7c ;
+	transition: 0.5s;
+	cursor: pointer;
+}
+#communication-div:hover {
+	box-shadow: 5px 5px 5px 5px #2b252c7c ;
+	transition: 0.5s;
+	cursor: pointer;
+}
+#image-div:hover {
+	box-shadow: 5px 5px 5px 5px #2b252c7c ;
+	transition: 0.5s;
+	cursor: pointer;
+}
+#avionics-div:hover {
+	box-shadow: 5px 5px 5px 5px #2b252c7c ;
+	transition: 0.5s;
+	cursor: pointer;
+}
 /* Reset */
 
 	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -2387,6 +2430,8 @@
 		padding: 6em 0 6em 0;
 		background: #2b252c;
 		color: #fff;
+		width: 1600px;
+		
 	}
 
 		#footer .icon.circled {
@@ -3026,6 +3071,7 @@
 			#footer {
 				padding-left: 1em;
 				padding-right: 1em;
+				width: 100%;
 			}
 
 		/* Carousel */
